@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <div class="flex">
+        <div class="mx-8 w-1/2 ml-9">
+            <nav class="flex justify-between mt-4 bg-white items-center">
+                <h1 class="text-3xl ml-2 font-thin" style="font-family: 'Playfair Display', serif;">Vespi</h1>
+                <div class="flex space-x-12 mr-2 bg-white mx-2 font-semibold">
+                    <a href="#">MENS</a><a href="#">WOMENS</a><a href="#">JOURNAL</a><a href="#">ABOUT US</a>
+                </div>
+            </nav>
+            <div class="flex items-center bg-white mt-4 h-3/4" style="font-family: 'Playfair Display', serif;">
+                <h1 class="text-8xl mx-auto">
+                    Womens Spring Range
+                </h1>
+            </div>
+            <div class="text-gray-600 ">
+                <div class="w-3/4">
+                    <p class="text-xl mb-6">
+                        Our new range of overcoats made from 100%
+                        cashmere, ethnically and without price tag
+                        of old fashion houses.
+                    </p>
+                </div>
+               
+                <svg class="h-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  
+            </div>
+        </div>
+        <div class="w-1/2">
+            <img src="/day3/jessica-felicio-_cvwXhGqG-o-unsplash.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
