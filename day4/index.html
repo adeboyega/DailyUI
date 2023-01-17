@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+          .roundbtns{
+            @apply rounded-full h-16 bg-gray-200 w-16 text-center justify-center text-2xl
+          }
+          .btncols{
+            @apply flex space-x-6 justify-center
+          }
+        }
+      </style>
+</head>
+<body class="grid">
+    <div class="bod flex flex-col bg-gray-100 w-1/5 mx-auto mt-9 justify-end rounded-lg">
+        <div class="lightbtn flex justify-end mr-2 cursor-pointer">
+            <svg class="icon h-9" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+              </svg>
+              
+        </div>
+        <div class="flex justify-end mr-2 text-xl mt-20">
+            <h3>324+81*4</h3>
+        </div>
+        <div class="mt-10 flex justify-end text-orange-400 text-4xl font-bold mr-2">
+            <h1>721</h1>
+        </div>
+        <!-- buttons -->
+        <div class="flex flex-col space-y-6 m-2 mb-6">
+            <div class="btncols">
+                <div class="roundbtns text-orange-500"><h1 class="mt-4">AC</h1></div>
+                <div class="roundbtns text-orange-500"><h1 class="mt-4">+/-</h1></div>
+                <div class="roundbtns text-orange-500"><h1 class="mt-4">%</h1></div>
+                <div class="roundbtns text-orange-500"><h1 class="mt-4">./.</h1></div>
+            </div>
+            <div class="btncols"> 
+                <div class="roundbtns text-gray-700"><h1 class="mt-4">7</h1></div>
+                <div class="roundbtns text-gray-700"><h1 class="mt-4">8</h1></div>
+                <div class="roundbtns text-gray-700"><h1 class="mt-4">9</h1></div>
+                <div class="roundbtns text-orange-500"><h1 class="mt-4">X</h1></div>
+            </div>
+            <div class="btncols"> 
+                <div class="roundbtns text-gray-700"><h1 class="mt-4">4</h1></div>
+                <div class="roundbtns text-gray-700"><h1 class="mt-4">5</h1></div>
+                <div class="roundbtns text-gray-700"><h1 class="mt-4">6</h1></div>
+                <div class="roundbtns text-orange-500"><h1 class="mt-4">-</h1></div>
+            </div>
+            <div class="btncols"> 
+                <div class="roundbtns text-gray-700"><h1 class="mt-4">1</h1></div>
+                <div class="roundbtns text-gray-700"><h1 class="mt-4">2</h1></div>
+                <div class="roundbtns text-gray-700"><h1 class="mt-4">3</h1></div>
+                <div class="roundbtns text-orange-500"><h1 class="mt-4">+</h1></div>
+            </div>
+            <div class="btncols"> 
+                <div class="rounded-full h-16 bg-gray-200 w-40 text-center justify-center text-2xl text-gray-700"><h1 class="mt-4">0</h1></div>
+                <div class="roundbtns text-gray-700"><h1 class="mt-4">,</h1></div>
+                <div class="roundbtns text-orange-500"><h1 class="mt-4">=</h1></div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="/day4/script.js"></script>
+</body>
+</html>
