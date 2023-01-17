@@ -16,3 +16,8 @@ i am taking on the 100 days challange to better my UI skills
   ----------------------------------Day 3 (Landing Page) using(Tailwind cdn)--------------------------------------------------
 ![Screenshot (23)](https://user-images.githubusercontent.com/97788659/212768623-c44c14bc-3edc-4639-8912-d8b066b2be62.png)
 
+  ----------------------------------Day 4 (Caculator) using(Tailwind cdn)--------------------------------------------------
+  ![Screenshot (57)](https://user-images.githubusercontent.com/97788659/212878082-11b0d6d3-1cb1-46aa-b819-1da5a294fab1.png)
+  
+![Screenshot (25)](https://user-images.githubusercontent.com/97788659/212878138-61dfb253-a7f6-4458-83b3-123865d1d996.png)
+
