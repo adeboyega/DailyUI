@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+      .redbox{
+        @apply text-white bg-red-700 px-2 py-2 text-center
+      }
+      .box{
+        @apply container m-4 h-full bg-orange-100 pb-10 w-1/2 rounded-lg text-start px-4 pt-4
+      }
+    }
+  </style>
+</head>
+<body class="flex items-center text-ceenter justify-between">
+    <div class="flex items-center text-ceenter justify-between w-1/2 mx-auto">
+        <div class="container m-4 h-full flex bg-orange-100 pb-10 w-64 rounded-lg h-full">
+            <div class="w-64 flex flex-col items-center text-center space-y-4 pt-6 " >
+                    <img class="border-8 w-52 rounded-full border-orange-300 mx-auto " src="/day6/WhatsApp Image 2022-12-25 at 09.16.07.jpeg" alt="">
+                <div>
+                    <h2 class="font-bold">Abayomi Aremo</h2>
+                    <p class="text-red-700">Software Developer</p>
+                    <h2 class="font-bold text-6xl text-yellow-500">"</h2>
+                    <div class="mx-auto text-sm px-4">
+                        <p class="text-start">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae excepturi itaque cum accusamus hic ad tempora! Inventore voluptatem est, expedita assumenda animi commodi quidem beatae dolor atque vitae quos aut.
+                        </p>
+                    </div>
+                    
+                    <div class="text-start flex flex-col px-4 space-y-4 mt-4 font-bold text-sm">
+                        <p>Age: <span class="font-thin ml-2 ">21</span></p>
+                        <p>Status: <span class="font-thin ml-2">single</span></p>
+                        <p>Location: <span class="font-thin ml-2">Benin</span></p> 
+                        <div class="space-y-3 container">
+                            <div class="redbox"><p>Javascript</p></div>
+                            <div class="redbox"><P>React</P></div>
+                            <div class="redbox"><p>scss</p></div>
+                            <div class="redbox"><p>Html</p></div>
+                            <div class="redbox"><P>Node&express</P></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="box">
+                <h2 class="font-bold text-lg">Bio</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis exercitationem tempore autem accusantium quo ullam magnam quas odio at. Voluptatem beatae laudantium earum, laborum voluptatibus saepe expedita rerum veniam tempora aut corporis temporibus similique quae, aperiam incidunt dolore eveniet iste, tenetur consectetur. Natus autem harum rerum vel temporibus, repellendus porro?</p>
+               </div>
+               <div class="box">
+                <h2>Personality</h2>
+                <div>
+                     <p>introvert</p>
+                     <p>Extrovert</p>
+                     <meter id="disk_c" value="3" min="0" max="10">2 out of 10</meter><br>
+                </div>
+                <div>
+                    <p>Analytical</p>
+                     <p>Creative</p>
+                     <meter id="disk_c" value="8" min="0" max="10">2 out of 10</meter><br>
+                </div>
+                <div>
+                    <p>Independent</p>
+                     <p>Teamwork</p>
+                     <meter id="disk_c" value="5" min="0" max="10">2 out of 10</meter><br>
+                </div>
+               </div>
+               <div class="box">
+                <h2>Goals</h2>
+                <span>.</span> To reduce my responsibilities at work to about 60%
+                <span>.</span> To achive the same percentage of more of optium result that achived prior to the hiring of a new V.A
+                <span>.</span> To grow by a minimum of 20% and maximum of 50% befor the next three quaters
+               </div>
+        </div>
+      <div>
+        <div class="box">
+            <h2>Motivations</h2>
+            <div>
+              <label for="disk_b">Growth</label>
+              <meter id="disk_b" value="5" min="0" max="10"></meter>
+            </div>
+            <div>
+              <label for="disk_b">Results</label>
+              <meter id="disk_b" value="5" min="0" max="10"></meter>
+            </div>
+            <div>
+              <label for="disk_b">Travel</label>
+              <meter id="disk_b" value="5" min="0" max="10"></meter>
+            </div>
+            <div>
+              <label for="disk_b">Speed</label>
+              <meter id="disk_b" value="5" min="0" max="10"></meter>
+            </div>
+         </div>
+         <div class="box">
+          <h2>Frustrations</h2>
+      
+          <span>.</span> Too busy to attend to certain i,portant tasks
+          <span>.</span> Frequent clash of deadlines loading to decreased productivity
+          <span>.</span> Not able to travel because of backlogs
+         </div>
+         <div class="box">
+          <h2>Minimum Requirements</h2>
+          <span>.</span> A female preferably
+          <span>.</span> A year + experience
+          <span>.</span> Below 26
+          <span>.</span> Modest and willing to learn
+          <span>.</span> Able to learn fast
+         </div>
+      </div>
+      
+    </div>
+   
+</body>
+</html>
