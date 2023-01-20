@@ -21,3 +21,8 @@ i am taking on the 100 days challange to better my UI skills
   
 ![Screenshot (25)](https://user-images.githubusercontent.com/97788659/212878138-61dfb253-a7f6-4458-83b3-123865d1d996.png)
 
+Day6
+![WhatsApp Image 2023-01-19 at 07 57 07](https://user-images.githubusercontent.com/97788659/213600737-eb82386b-414f-449b-8cd0-e6d9bb14272b.jpeg)
+
+
+
